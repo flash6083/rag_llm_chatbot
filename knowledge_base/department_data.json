@@ -1,0 +1,350 @@
+{
+  "department": {
+    "name": "Computer Science and Engineering",
+    "institution": "National Institute of Technology Rourkela",
+    "established": "1995",
+    "vision": "To be a center of excellence in computer science education and research",
+    "mission": "To produce competent computer science professionals and contribute to technological advancement",
+    "contact": {
+      "email": "cse@nitrkl.ac.in",
+      "phone": "+91-661-246-2000",
+      "office": "Department of CSE, NIT Rourkela, Odisha 769008"
+    }
+  },
+  "programs": {
+    "btech": {
+      "name": "Bachelor of Technology in Computer Science and Engineering",
+      "duration": "4 years",
+      "seats": 120,
+      "eligibility": "JEE Main qualified candidates"
+    },
+    "mtech": {
+      "name": "Master of Technology",
+      "duration": "2 years",
+      "seats": 60,
+      "specializations": [
+        {
+          "name": "Artificial Intelligence and Machine Learning",
+          "code": "AIML",
+          "seats": 20,
+          "description": "Focuses on deep learning, neural networks, and intelligent systems"
+        },
+        {
+          "name": "Data Science and Analytics",
+          "code": "DSA",
+          "seats": 20,
+          "description": "Emphasizes big data processing, statistical analysis, and data visualization"
+        },
+        {
+          "name": "Cybersecurity",
+          "code": "CS",
+          "seats": 20,
+          "description": "Covers network security, cryptography, and ethical hacking"
+        }
+      ],
+      "eligibility": "GATE qualified or sponsored candidates with BE/BTech in CSE/IT"
+    },
+    "phd": {
+      "name": "Doctor of Philosophy",
+      "duration": "3-5 years",
+      "available": true,
+      "research_areas": [
+        "Machine Learning and Artificial Intelligence",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Blockchain and Distributed Systems",
+        "IoT and Edge Computing",
+        "Cybersecurity",
+        "Software Engineering",
+        "Cloud Computing",
+        "High Performance Computing"
+      ]
+    }
+  },
+  "faculty": [
+    {
+      "name": "Dr. Rajesh Kumar",
+      "designation": "Professor and Head",
+      "email": "rajesh.kumar@nitrkl.ac.in",
+      "phone": "+91-661-246-2101",
+      "specialization": "Artificial Intelligence",
+      "research_interests": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing"
+      ],
+      "education": [
+        "PhD in Computer Science from IIT Delhi",
+        "MTech in CSE from IIT Bombay",
+        "BTech in CSE from NIT Trichy"
+      ],
+      "publications": 85,
+      "h_index": 28,
+      "courses_taught": [
+        "CS601 - Machine Learning",
+        "CS701 - Advanced Artificial Intelligence",
+        "CS301 - Introduction to AI"
+      ],
+      "notable_research": "Developed novel deep learning architectures for medical image analysis"
+    },
+    {
+      "name": "Dr. Priya Sharma",
+      "designation": "Associate Professor",
+      "email": "priya.sharma@nitrkl.ac.in",
+      "specialization": "Data Science",
+      "research_interests": [
+        "Big Data Analytics",
+        "Data Mining",
+        "Statistical Learning"
+      ],
+      "education": [
+        "PhD in Data Science from IISc Bangalore",
+        "MTech in CSE from IIT Kharagpur"
+      ],
+      "publications": 52,
+      "h_index": 18,
+      "courses_taught": [
+        "CS602 - Data Science Fundamentals",
+        "CS702 - Big Data Analytics",
+        "CS401 - Database Management Systems"
+      ],
+      "projects": [
+        "Smart City Data Analytics Platform (Govt of Odisha)",
+        "Healthcare Data Mining for Disease Prediction"
+      ]
+    },
+    {
+      "name": "Dr. Amit Patel",
+      "designation": "Associate Professor",
+      "email": "amit.patel@nitrkl.ac.in",
+      "specialization": "Cybersecurity",
+      "research_interests": [
+        "Network Security",
+        "Cryptography",
+        "Blockchain Technology"
+      ],
+      "education": [
+        "PhD in Computer Security from IIT Kanpur",
+        "MTech in Information Security from IIT Madras"
+      ],
+      "publications": 45,
+      "h_index": 15,
+      "courses_taught": [
+        "CS603 - Cybersecurity Fundamentals",
+        "CS703 - Advanced Cryptography",
+        "CS501 - Network Security"
+      ],
+      "certifications": [
+        "Certified Ethical Hacker (CEH)",
+        "CISSP - Certified Information Systems Security Professional"
+      ]
+    },
+    {
+      "name": "Dr. Sneha Gupta",
+      "designation": "Assistant Professor",
+      "email": "sneha.gupta@nitrkl.ac.in",
+      "specialization": "Computer Vision",
+      "research_interests": [
+        "Image Processing",
+        "Object Detection",
+        "Video Analytics"
+      ],
+      "education": [
+        "PhD in Computer Vision from IIT Bombay",
+        "MTech in CSE from BITS Pilani"
+      ],
+      "publications": 30,
+      "h_index": 12,
+      "courses_taught": [
+        "CS604 - Computer Vision",
+        "CS402 - Digital Image Processing"
+      ]
+    },
+    {
+      "name": "Dr. Vikram Singh",
+      "designation": "Assistant Professor",
+      "email": "vikram.singh@nitrkl.ac.in",
+      "specialization": "Cloud Computing",
+      "research_interests": [
+        "Cloud Infrastructure",
+        "Distributed Systems",
+        "Containerization"
+      ],
+      "education": [
+        "PhD in Distributed Computing from IIT Delhi"
+      ],
+      "publications": 28,
+      "courses_taught": [
+        "CS605 - Cloud Computing",
+        "CS502 - Distributed Systems"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS601",
+      "name": "Machine Learning",
+      "credits": 3,
+      "type": "Core",
+      "instructor": "Dr. Rajesh Kumar",
+      "prerequisites": ["Data Structures", "Probability and Statistics"],
+      "syllabus": [
+        "Introduction to ML",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks",
+        "Deep Learning Basics"
+      ]
+    },
+    {
+      "code": "CS602",
+      "name": "Data Science Fundamentals",
+      "credits": 3,
+      "type": "Core",
+      "instructor": "Dr. Priya Sharma",
+      "prerequisites": ["Programming", "Statistics"],
+      "syllabus": [
+        "Data Collection and Cleaning",
+        "Exploratory Data Analysis",
+        "Statistical Inference",
+        "Data Visualization",
+        "Predictive Modeling"
+      ]
+    },
+    {
+      "code": "CS603",
+      "name": "Cybersecurity Fundamentals",
+      "credits": 3,
+      "type": "Core",
+      "instructor": "Dr. Amit Patel",
+      "prerequisites": ["Computer Networks", "Operating Systems"],
+      "syllabus": [
+        "Security Principles",
+        "Cryptography",
+        "Network Security",
+        "Web Security",
+        "Security Testing"
+      ]
+    },
+    {
+      "code": "CS604",
+      "name": "Computer Vision",
+      "credits": 3,
+      "type": "Elective",
+      "instructor": "Dr. Sneha Gupta",
+      "prerequisites": ["Machine Learning", "Linear Algebra"],
+      "syllabus": [
+        "Image Formation",
+        "Feature Detection",
+        "Object Recognition",
+        "Deep Learning for Vision",
+        "Video Processing"
+      ]
+    },
+    {
+      "code": "CS605",
+      "name": "Cloud Computing",
+      "credits": 3,
+      "type": "Elective",
+      "instructor": "Dr. Vikram Singh",
+      "prerequisites": ["Operating Systems", "Computer Networks"],
+      "syllabus": [
+        "Cloud Architecture",
+        "Virtualization",
+        "Container Technologies",
+        "Cloud Services (AWS/Azure)",
+        "DevOps Practices"
+      ]
+    }
+  ],
+  "facilities": {
+    "labs": [
+      {
+        "name": "AI and Machine Learning Lab",
+        "capacity": 40,
+        "equipment": "High-end GPU workstations, Deep Learning servers",
+        "software": "TensorFlow, PyTorch, Keras, Scikit-learn"
+      },
+      {
+        "name": "Data Science Lab",
+        "capacity": 35,
+        "equipment": "Big Data cluster, Analytics workstations",
+        "software": "Hadoop, Spark, R, Python, Tableau"
+      },
+      {
+        "name": "Cybersecurity Lab",
+        "capacity": 30,
+        "equipment": "Isolated network environment, Security testing tools",
+        "software": "Kali Linux, Wireshark, Metasploit, Burp Suite"
+      },
+      {
+        "name": "Computer Vision Lab",
+        "capacity": 30,
+        "equipment": "High-resolution cameras, Image processing workstations",
+        "software": "OpenCV, MATLAB, Vision frameworks"
+      },
+      {
+        "name": "Cloud Computing Lab",
+        "capacity": 40,
+        "equipment": "Virtual machines, Container orchestration setup",
+        "software": "Docker, Kubernetes, AWS, Azure"
+      }
+    ],
+    "research_centers": [
+      {
+        "name": "Center for Artificial Intelligence and Robotics",
+        "focus": "AI research and intelligent systems development",
+        "head": "Dr. Rajesh Kumar"
+      },
+      {
+        "name": "Data Science and Analytics Research Group",
+        "focus": "Big data analytics and business intelligence",
+        "head": "Dr. Priya Sharma"
+      },
+      {
+        "name": "Cybersecurity Research Lab",
+        "focus": "Network security and cryptographic research",
+        "head": "Dr. Amit Patel"
+      }
+    ]
+  },
+  "placements": {
+    "average_package": "₹12.5 LPA",
+    "highest_package": "₹45 LPA",
+    "placement_percentage": "95%",
+    "top_recruiters": [
+      "Google",
+      "Microsoft",
+      "Amazon",
+      "Goldman Sachs",
+      "Morgan Stanley",
+      "Flipkart",
+      "Adobe",
+      "Oracle",
+      "Cisco",
+      "TCS Research"
+    ]
+  },
+  "research_output": {
+    "total_publications": 450,
+    "conferences": 280,
+    "journals": 170,
+    "patents": 12,
+    "funded_projects": 25,
+    "total_funding": "₹8.5 Crores"
+  },
+  "student_activities": {
+    "technical_clubs": [
+      "NITR AI Club",
+      "Cyber Security Club",
+      "Competitive Programming Club",
+      "Web Development Club"
+    ],
+    "events": [
+      "Hackathons",
+      "Code Wars",
+      "Tech Talks and Seminars",
+      "Industrial Visits"
+    ]
+  }
+}
