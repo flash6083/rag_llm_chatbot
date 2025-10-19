@@ -24,7 +24,7 @@ Welcome to the **NIT Rourkela CS Department Chatbot** – a cutting-edge, conver
 - 🎯 **Instant Information Access**: Get answers about specializations, faculty, courses, and research instantly
 - 🧠 **Smart & Accurate**: RAG architecture ensures responses are grounded in actual department data
 - 📚 **Dynamic Knowledge Base**: Upload PDFs, DOCX, TXT files to continuously expand the knowledge base
-- ⚡ **Lightning Fast**: Optimized with TF-IDF embeddings and Phi-3 mini model for quick responses
+- ⚡ **Lightning Fast**: Optimized with TF-IDF embeddings and phi3:3.8b model for quick responses
 - 🔒 **Privacy-First**: Runs entirely locally – no data leaves your infrastructure
 
 ---
@@ -46,7 +46,7 @@ Welcome to the **NIT Rourkela CS Department Chatbot** – a cutting-edge, conver
 
 - **Hybrid Architecture**: Node.js/TypeScript backend + Python microservice for AI/ML operations
 - **Vector Database**: ChromaDB for efficient semantic search
-- **Lightweight LLM**: Ollama with Phi-3 Mini (2.3GB) – perfect for MacBook Air
+- **Lightweight LLM**: Ollama with phi3:3.8b(2.2GB) – perfect for MacBook Air
 - **RAG Pipeline**: Retrieval-Augmented Generation ensures factual, grounded responses
 - **TF-IDF Embeddings**: Fast, efficient text embeddings without GPU requirements
 - **Type-Safe**: Full TypeScript implementation with Zod validation
@@ -107,7 +107,7 @@ Welcome to the **NIT Rourkela CS Department Chatbot** – a cutting-edge, conver
    - Performs similarity search
    - Retrieves relevant context
 
-4. **Ollama + Phi-3 Mini**
+4. **Ollama + phi3:3.8b**
    - Lightweight language model
    - Context-aware response generation
    - Runs locally on CPU
@@ -134,7 +134,7 @@ git clone https://github.com/yourusername/nit-rourkela-cs-chatbot.git
 cd nit-rourkela-cs-chatbot
 ```
 
-#### 2️⃣ Install Ollama and Download Phi-3
+#### 2️⃣ Install Ollama and Download phi3:3.8b
 
 ```bash
 # Install Ollama (macOS)
@@ -143,8 +143,8 @@ brew install ollama
 # Start Ollama service
 ollama serve
 
-# In a new terminal, pull Phi-3 mini model
-ollama pull phi3:mini
+# In a new terminal, pull phi3:3.8b model
+ollama pull phi3:3.8b
 ```
 
 #### 3️⃣ Setup Python Microservice
@@ -249,7 +249,7 @@ GET /health
   "vectorStore": {
     "documentsCount": 150
   },
-  "model": "phi3:mini"
+  "model": "phi3:3.8b"
 }
 ```
 
@@ -420,7 +420,7 @@ KNOWLEDGE_BASE_DIR=./knowledge_base
 CHROMA_DB_PATH=./chroma_db
 
 # Ollama Configuration
-OLLAMA_MODEL=phi3:mini
+OLLAMA_MODEL=phi3:3.8b
 OLLAMA_BASE_URL=http://localhost:11434
 
 # Vector Store Settings
@@ -594,9 +594,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Having issues? Need help?
 
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/nit-rourkela-cs-chatbot/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/nit-rourkela-cs-chatbot/discussions)
+- 📧 Email: sayak6237@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/flash6083/rag_llm_chatbot/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/flash6083/rag_llm_chatbot/discussions)
 
 ---
 
