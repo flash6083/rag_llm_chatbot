@@ -5,7 +5,7 @@ dotenv.config();
 
 export const config = {
   env: process.env.NODE_ENV || 'development',
-  port: parseInt(process.env.PORT || '8000', 10),
+  port: parseInt(process.env.PORT || '8080', 10),
   pythonServiceUrl: process.env.PYTHON_SERVICE_URL || 'http://localhost:5001',
   
   paths: {

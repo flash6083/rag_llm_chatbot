@@ -21,6 +21,11 @@ router.get('/health', asyncHandler(async (req, res, next) => {
   await chatController.healthCheck(req, res);
 }));
 
+// Optional: Compare old vs new retrieval (useful for debugging/testing)
+router.post('/compare-retrieval', asyncHandler(async (req, res, next) => {
+  await chatController.compareRetrieval(req, res);
+}));
+
 // Document routes
 router.post('/upload', upload.single('file'), asyncHandler(async (req, res, next) => {
   await documentController.uploadDocument(req, res);

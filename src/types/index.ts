@@ -25,8 +25,25 @@ export interface SearchResult {
 
 export interface QueryResponse {
   answer: string;
-  sources: SearchResult[];
-  processingTime?: number;
+  sources: Array<{
+    text: string;
+    metadata: any;
+    score?: number;
+    scoreBreakdown?: {
+      vector: number;
+      keyword: number;
+      exact_match: number;
+      length: number;
+      position: number;
+    };
+  }>;
+  processingTime: number;
+  metadata?: {
+    queryType: string;
+    contextChunks: number;
+    expandedQuery?: string | null;
+    modelUsed: string;
+  };
 }
 
 export interface UploadResponse {

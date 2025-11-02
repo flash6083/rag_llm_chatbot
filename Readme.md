@@ -409,7 +409,7 @@ Create a `.env` file in the root directory:
 ```env
 # Server Configuration
 NODE_ENV=development
-PORT=8000
+PORT=8080
 
 # Service URLs
 PYTHON_SERVICE_URL=http://localhost:5001
@@ -556,7 +556,7 @@ mkdir chroma_db
 
 **4. Port already in use**
 ```bash
-# Find process using port 8000
+# Find process using port 8080
 lsof -i :8000
 
 # Kill the process

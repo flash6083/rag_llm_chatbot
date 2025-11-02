@@ -13,7 +13,6 @@ class VectorStoreService {
   private isInitialized = false;
 
   constructor() {
-    // Embedded ChromaDB, no HTTP server needed
     this.client = new ChromaClient({
       persistDirectory: path.resolve(__dirname, '../../chroma_db'),
     } as any);
@@ -22,11 +21,10 @@ class VectorStoreService {
 
   private async initializeCollection() {
     try {
-      // Initially create or fetch collection
       this.collection = await this.client.getOrCreateCollection({
         name: this.collectionName,
         metadata: { 'hnsw:space': 'cosine' },
-        embeddingFunction: null as any, // embeddings provided externally
+        embeddingFunction: null as any,
       });
       this.isInitialized = true;
       console.log('✅ ChromaDB collection initialized (embedded)');
@@ -42,7 +40,6 @@ class VectorStoreService {
     }
   }
 
-  // Always get fresh collection to avoid stale references
   private async getCollection() {
     await this.ensureInitialized();
     this.collection = await this.client.getOrCreateCollection({
@@ -98,6 +95,31 @@ class VectorStoreService {
     }
   }
 
+  async queryWithEmbedding(
+    embedding: number[],
+    nResults: number = 5
+  ): Promise<SearchResult[]> {
+    try {
+      const collection = await this.getCollection();
+
+      const results = await collection.query({
+        queryEmbeddings: [embedding],
+        nResults,
+      });
+
+      if (!results.documents?.[0]?.length) return [];
+
+      return results.documents[0].map((doc: string, i: number) => ({
+        text: doc,
+        metadata: results.metadatas[0][i],
+        score: results.distances?.[0]?.[i] || 0,
+      }));
+    } catch (error) {
+      console.error('Error querying with embedding:', error);
+      throw error;
+    }
+  }
+
   async loadJsonKnowledgeBase(jsonPath: string): Promise<number> {
     try {
       if (!fs.existsSync(jsonPath)) {
@@ -105,10 +127,11 @@ class VectorStoreService {
       }
 
       const data = JSON.parse(await fsPromises.readFile(jsonPath, 'utf-8'));
-      const items = this.flattenJson(data);
+      const items = this.smartFlattenJson(data);
 
       if (!items.length) throw new Error('No items extracted from JSON');
 
+      console.log(`📦 Created ${items.length} knowledge base chunks`);
       await this.addDocuments(items);
       return items.length;
     } catch (error) {
@@ -117,44 +140,140 @@ class VectorStoreService {
     }
   }
 
-  private flattenJson(
-    data: any,
-    parentKey = '',
-    items: KnowledgeBaseItem[] = []
-  ): KnowledgeBaseItem[] {
-    if (typeof data === 'object' && data !== null) {
-      if (Array.isArray(data)) {
-        data.forEach((item, index) =>
-          this.flattenJson(item, `${parentKey}[${index}]`, items)
-        );
-      } else {
-        Object.entries(data).forEach(([key, value]) => {
-          const newKey = parentKey ? `${parentKey}.${key}` : key;
-          if (typeof value === 'object' && value !== null) {
-            const jsonStr = JSON.stringify(value, null, 2);
-            items.push({
-              id: uuidv4(),
-              text: `${key}: ${jsonStr}`,
-              metadata: { source: 'knowledge_base', type: 'json', category: parentKey || 'root' } as any,
-            });
-            this.flattenJson(value, newKey, items);
-          } else {
-            items.push({
-              id: uuidv4(),
-              text: `${key}: ${value}`,
-              metadata: { source: 'knowledge_base', type: 'json', category: parentKey || 'root' } as any,
-            });
-          }
-        });
-      }
+  /**
+   * Improved JSON flattening that keeps related data together
+   * This ensures faculty names stay with their courses, research areas, etc.
+   */
+  private smartFlattenJson(data: any): KnowledgeBaseItem[] {
+    const items: KnowledgeBaseItem[] = [];
+
+    // Handle top-level arrays (e.g., faculty list, courses list)
+    if (Array.isArray(data)) {
+      data.forEach((item, index) => {
+        if (typeof item === 'object' && item !== null) {
+          // Create a comprehensive text representation
+          const text = this.objectToText(item);
+          
+          items.push({
+            id: uuidv4(),
+            text,
+            metadata: {
+              source: 'knowledge_base',
+              type: 'json',
+              category: 'root',
+              index,
+            } as any,
+          });
+        }
+      });
+    } 
+    // Handle top-level objects with named sections
+    else if (typeof data === 'object' && data !== null) {
+      Object.entries(data).forEach(([sectionName, sectionData]) => {
+        if (Array.isArray(sectionData)) {
+          // Process each item in the array (e.g., each faculty member)
+          sectionData.forEach((item, index) => {
+            if (typeof item === 'object' && item !== null) {
+              const text = this.objectToText(item, sectionName);
+              
+              items.push({
+                id: uuidv4(),
+                text,
+                metadata: {
+                  source: 'knowledge_base',
+                  type: 'json',
+                  category: sectionName,
+                  index,
+                } as any,
+              });
+            } else {
+              // Simple value
+              items.push({
+                id: uuidv4(),
+                text: `${sectionName}: ${item}`,
+                metadata: {
+                  source: 'knowledge_base',
+                  type: 'json',
+                  category: sectionName,
+                  index,
+                } as any,
+              });
+            }
+          });
+        } else if (typeof sectionData === 'object' && sectionData !== null) {
+          // Process object sections
+          const text = this.objectToText(sectionData, sectionName);
+          
+          items.push({
+            id: uuidv4(),
+            text,
+            metadata: {
+              source: 'knowledge_base',
+              type: 'json',
+              category: sectionName,
+            } as any,
+          });
+        } else {
+          // Simple key-value pair
+          items.push({
+            id: uuidv4(),
+            text: `${sectionName}: ${sectionData}`,
+            metadata: {
+              source: 'knowledge_base',
+              type: 'json',
+              category: 'root',
+            } as any,
+          });
+        }
+      });
     }
+
     return items;
+  }
+
+  /**
+   * Convert an object to a comprehensive text representation
+   * Keeps all related fields together (name, email, courses, research, etc.)
+   */
+  private objectToText(obj: any, prefix?: string): string {
+    const lines: string[] = [];
+    
+    if (prefix) {
+      lines.push(`[${prefix}]`);
+    }
+
+    const formatValue = (value: any, indent: string = ''): string => {
+      if (Array.isArray(value)) {
+        return value.map(v => `${indent}- ${v}`).join('\n');
+      } else if (typeof value === 'object' && value !== null) {
+        return Object.entries(value)
+          .map(([k, v]) => `${indent}${k}: ${formatValue(v, indent + '  ')}`)
+          .join('\n');
+      }
+      return String(value);
+    };
+
+    // Process all fields
+    Object.entries(obj).forEach(([key, value]) => {
+      if (value !== null && value !== undefined) {
+        if (Array.isArray(value)) {
+          lines.push(`${key}:`);
+          lines.push(formatValue(value, '  '));
+        } else if (typeof value === 'object') {
+          lines.push(`${key}:`);
+          lines.push(formatValue(value, '  '));
+        } else {
+          lines.push(`${key}: ${value}`);
+        }
+      }
+    });
+
+    return lines.join('\n');
   }
 
   async clearCollection(): Promise<void> {
     try {
       await this.client.deleteCollection({ name: this.collectionName });
-      // Recreate collection and get fresh reference
       await this.getCollection();
       console.log('✅ Collection cleared and re-initialized');
     } catch (error) {
