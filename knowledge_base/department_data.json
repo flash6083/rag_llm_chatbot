@@ -6,8 +6,8 @@
     "vision": "To be a center of excellence in computer science education and research",
     "mission": "To produce competent computer science professionals and contribute to technological advancement",
     "contact": {
-      "email": "cse@nitrkl.ac.in",
-      "phone": "+91-661-246-2000",
+      "email": "hod-cs@nitrkl.ac.in",
+      "phone": "0661-2462351",
       "office": "Department of CSE, NIT Rourkela, Odisha 769008"
     }
   },
@@ -15,34 +15,34 @@
     "btech": {
       "name": "Bachelor of Technology in Computer Science and Engineering",
       "duration": "4 years",
-      "seats": 120,
-      "eligibility": "JEE Main qualified candidates"
+      "seats": 180,
+      "eligibility": "JEE Main qualified candidates applied through JoSAA/CSAB counseling with Physics, Chemistry, Mathematics in 10+2"
     },
     "mtech": {
-      "name": "Master of Technology",
+      "name": "Master of Technology in Computer Science and Engineering",
       "duration": "2 years",
-      "seats": 60,
+      "seats": 75,
       "specializations": [
         {
-          "name": "Artificial Intelligence and Machine Learning",
-          "code": "AIML",
-          "seats": 20,
-          "description": "Focuses on deep learning, neural networks, and intelligent systems"
+          "name": "Computer Science",
+          "code": "CS1",
+          "seats": 25,
+          "description": "To produce computer professionals with ability to analyze and solve complex computer engineering problems"
         },
         {
-          "name": "Data Science and Analytics",
-          "code": "DSA",
-          "seats": 20,
-          "description": "Emphasizes big data processing, statistical analysis, and data visualization"
+          "name": "Information Security",
+          "code": "CS2",
+          "seats": 25,
+          "description": "To produce competent graduates to analyze the security challenges and suggest suitable design solutions"
         },
         {
-          "name": "Cybersecurity",
-          "code": "CS",
-          "seats": 20,
-          "description": "Covers network security, cryptography, and ethical hacking"
+          "name": "Software Engineering",
+          "code": "CS3",
+          "seats": 25,
+          "description": "To produce competent graduates to analyze the software engineering challenges and suggest suitable design solutions"
         }
       ],
-      "eligibility": "GATE qualified or sponsored candidates with BE/BTech in CSE/IT"
+      "eligibility": "GATE qualified and admission through CCMT counseling  or sponsored candidates with BE/BTech in CSE/IT"
     },
     "phd": {
       "name": "Doctor of Philosophy",
@@ -62,124 +62,1266 @@
     }
   },
   "faculty": [
-    {
-      "name": "Dr. Rajesh Kumar",
-      "designation": "Professor and Head",
-      "email": "rajesh.kumar@nitrkl.ac.in",
-      "phone": "+91-661-246-2101",
-      "specialization": "Artificial Intelligence",
+   
+     {
+      "name": "Ashok Kumar Turuk",
+      "designation": "Professor & Dean (Academic)",
+      "email": "akturuk@nitrkl.ac.in",
+      "specialization": "Network and Secured Computing",
       "research_interests": [
-        "Machine Learning",
-        "Deep Learning",
-        "Natural Language Processing"
+        "Optical Network",
+        "Blockchain",
+        "Software Defined Networks",
+        "Architecture"
       ],
       "education": [
-        "PhD in Computer Science from IIT Delhi",
-        "MTech in CSE from IIT Bombay",
-        "BTech in CSE from NIT Trichy"
+        "Ph.D. in Computer Science and Engineering, IIT Kharagpur (2005)",
+        "M.E. in Computer Science, NIT Rourkela (2000)",
+        "B.E. in Computer Science & Engineering, NIT Rourkela (1992)"
       ],
-      "publications": 85,
-      "h_index": 28,
+      "publications": 174,
+      "h_index": 76,
       "courses_taught": [
-        "CS601 - Machine Learning",
-        "CS701 - Advanced Artificial Intelligence",
-        "CS301 - Introduction to AI"
+        "CS102 : Data Structures and Algorithm {Theory}",
+        "CS2002 : Computer Organization and Architecture {Theory}",
+        "CS2061 : Data Structure Applications and Algorithms {Theory}",
+        "CS242 : Computer Organization and Architecture {Theory}",
+        "CS3002 : Computer Networks {Theory}",
+        "CS331 : Theory of Computation {Theory}",
+        "CS427 : Network Security {Theory}",
+        "CS442 : Computer System Architecture {Theory}",
+        "CS443 : Embedded Systems {Theory}",
+        "CS6101 : Computer Architecture {Theory}",
+        "CS6129 : Introduction To High Performance Computing {Theory}",
+        "CS622 : Design of Computer Networks {Theory}",
+        "CS6221 : Blockchain and Cryptocurrency Technology {Theory}",
+        "CS623 : Ad-hoc and Wireless Networks {Theory}",
+        "CS6301 : Foundations of Computer Security {Theory}",
+        "CS6302 : Advanced Computer Networks {Theory}",
+        "CS635 : Biometric Security {Theory}",
+        "CS641 : Advanced Computer Architecture {Theory}",
+        "CS661 : Advanced Data Structures {Theory}",
+        "CS721 : High Performance Computing {Theory}",
+        "CS1000 : Basic Programming {Practical}",
+        "CS1010 : Programming for Problem Solving {Practical}",
+        "CS171 : Computing Laboratory - I {Practical}",
+        "CS172 : Computing Laboratory - II {Practical}",
+        "CS2074 : Computer Organization Laboratory {Practical}",
+        "CS2081 : Data Structure Applications and Algorithms Laboratory {Practical}",
+        "CS274 : Digital System Design Laboratory {Practical}",
+        "CS3072 : Data Comm and Computer Networks Laboratory {Practical}",
+        "CS367 : Product Development Laboratory – I {Practical}",
+        "CS371 : Data Communication Laboratory {Practical}",
+        "CS672 : Software Engineering Laboratory {Practical}",
+        "CS676 : Cryptography Laboratory -I {Practical}",
+        "CS679 : Biometric Laboratory {Practical}",
+        "CS684 : Special Laboratory in Computer Science and Engineering – II {Practical}",
+        "CS707 : High Performance Computing Laboratory {Practical}"
       ],
-      "notable_research": "Developed novel deep learning architectures for medical image analysis"
+      "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=akturuk",
+      "photo_url": null,
+      "google_scholar": null
     },
     {
-      "name": "Dr. Priya Sharma",
-      "designation": "Associate Professor",
-      "email": "priya.sharma@nitrkl.ac.in",
-      "specialization": "Data Science",
-      "research_interests": [
-        "Big Data Analytics",
-        "Data Mining",
-        "Statistical Learning"
-      ],
-      "education": [
-        "PhD in Data Science from IISc Bangalore",
-        "MTech in CSE from IIT Kharagpur"
-      ],
-      "publications": 52,
-      "h_index": 18,
-      "courses_taught": [
-        "CS602 - Data Science Fundamentals",
-        "CS702 - Big Data Analytics",
-        "CS401 - Database Management Systems"
-      ],
-      "projects": [
-        "Smart City Data Analytics Platform (Govt of Odisha)",
-        "Healthcare Data Mining for Disease Prediction"
-      ]
-    },
-    {
-      "name": "Dr. Amit Patel",
-      "designation": "Associate Professor",
-      "email": "amit.patel@nitrkl.ac.in",
-      "specialization": "Cybersecurity",
-      "research_interests": [
-        "Network Security",
-        "Cryptography",
-        "Blockchain Technology"
-      ],
-      "education": [
-        "PhD in Computer Security from IIT Kanpur",
-        "MTech in Information Security from IIT Madras"
-      ],
-      "publications": 45,
-      "h_index": 15,
-      "courses_taught": [
-        "CS603 - Cybersecurity Fundamentals",
-        "CS703 - Advanced Cryptography",
-        "CS501 - Network Security"
-      ],
-      "certifications": [
-        "Certified Ethical Hacker (CEH)",
-        "CISSP - Certified Information Systems Security Professional"
-      ]
-    },
-    {
-      "name": "Dr. Sneha Gupta",
-      "designation": "Assistant Professor",
-      "email": "sneha.gupta@nitrkl.ac.in",
-      "specialization": "Computer Vision",
-      "research_interests": [
-        "Image Processing",
-        "Object Detection",
-        "Video Analytics"
-      ],
-      "education": [
-        "PhD in Computer Vision from IIT Bombay",
-        "MTech in CSE from BITS Pilani"
-      ],
-      "publications": 30,
-      "h_index": 12,
-      "courses_taught": [
-        "CS604 - Computer Vision",
-        "CS402 - Digital Image Processing"
-      ]
-    },
-    {
-      "name": "Dr. Vikram Singh",
-      "designation": "Assistant Professor",
-      "email": "vikram.singh@nitrkl.ac.in",
-      "specialization": "Cloud Computing",
-      "research_interests": [
-        "Cloud Infrastructure",
-        "Distributed Systems",
-        "Containerization"
-      ],
-      "education": [
-        "PhD in Distributed Computing from IIT Delhi"
-      ],
-      "publications": 28,
-      "courses_taught": [
-        "CS605 - Cloud Computing",
-        "CS502 - Distributed Systems"
-      ]
-    }
+    "name": "Anup Nandy",
+    "designation": "Associate Professor & HOC (Centre for Automation Technology)",
+    "email": "nandya@nitrkl.ac.in",
+    "specialization": "Intelligent Computing and Computer Vision",
+    "research_interests": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Computing Human Cognition",
+      "Robotics"
+    ],
+    "education": [
+      "Ph.D. (IIIT-Allahabad)",
+      "M.Tech (IIIT-Allahabad)"
+    ],
+    "publications": 65,
+    "h_index": null,
+    "courses_taught": [
+      "CS102 : Data Structures and Algorithms {Theory}",
+      "CS2003 : Discrete Structures {Theory}",
+      "CS2005 : Data Structures and Algorithms {Theory}",
+      "CS2011 : Introduction to AI and ML {Theory}",
+      "CS213 : Principles of Programming Languages {Theory}",
+      "CS315 : Optimization Techniques {Theory}",
+      "CS3306 : Machine Learning {Theory}",
+      "CS331 : Theory of Computation {Theory}",
+      "CS435 : Artificial Intelligence {Theory}",
+      "CS437 : Soft Computing {Theory}",
+      "CS443 : Embedded Systems {Theory}",
+      "CS6218 : Machine Learning {Theory}",
+      "CS6412 : Artificial Intelligence {Theory}",
+      "CS6510 : Deep Learning {Theory}",
+      "CS6592 : Applied Deep Learning {Theory}",
+      "CS708 : Machine Learning {Theory}",
+      "CS1000 : Basic Programming {Practical}",
+      "CS1010 : Programming for Problem Solving {Practical}",
+      "CS171 : Computing Laboratory - I {Practical}",
+      "CS172 : Computing Laboratory – II {Practical}",
+      "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+      "CS2672 : AI and ML Laboratory {Practical}",
+      "CS368 : Product Development Laboratory – II {Practical}",
+      "CS4373 : Artificial Intelligence Laboratory {Practical}",
+      "CS477 : Soft Computing Laboratory {Practical}",
+      "CS483 : Advanced Data Structure Laboratory {Practical}",
+      "CS485 : Artificial Intelligence Laboratory {Practical}",
+      "CS6272 : Machine Learning Laboratory {Practical}",
+      "CS6273 : Machine Learning Laboratory {Practical}",
+      "CS6475 : Soft Computing Laboratory {Practical}",
+      "CS6594 : Applied Deep Learning Laboratory {Practical}",
+      "CS700 : Optimization Techniques Laboratory {Practical}",
+      "CS776 : Machine Learning Laboratory {Practical}"
+    ],
+    "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=nandya",
+    "photo_url": null,
+    "google_scholar": null
+  },
+
+ {
+  "name": "Arun Kumar",
+  "designation": "Assistant Professor Grade-I",
+  "email": "kumararun@nitrkl.ac.in",
+  "specialization": "Communication and Computing (IoT, Wireless Networks)",
+  "research_interests": [
+    "Internet of Things",
+    "Wireless Sensor Networks",
+    "Ad-hoc and Mobile Networks",
+    "Communication Algorithms",
+    "Computer Networks Analysis"
   ],
+  "education": [
+    "Ph.D. in Computer Science & Engineering, Nanyang Technological University (NTU), Singapore (2014)",
+    "M.Tech in Computer Science & Engineering, NIT Rourkela (2008)",
+    "B.Tech in Computer Science & Engineering, IERT Allahabad (2006)"
+  ],
+  "publications": 73,
+  "h_index": 16,
+  "courses_taught": [
+    "CS2061 : Data Structure Applications and Algorithms {Theory}",
+    "CS2062 : Database Management Systems {Theory}",
+    "CS3002 : Computer Networks {Theory}",
+    "CS3009 : Operating Systems {Theory}",
+    "CS3061 : Computer Architecture {Theory}",
+    "CS3062 : Principles of Operating Systems {Theory}",
+    "CS6319 : Next Generation Networking Systems {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS3071 : Operating Systems Laboratory {Practical}",
+    "CS3072 : Data Comm and Computer Networks Laboratory {Practical}",
+    "CS367 : Product Development Laboratory – I {Practical}",
+    "CS368 : Product Development Laboratory – II {Practical}",
+    "CS394 : Special Laboratory in Computer Science and Engineering – II {Practical}",
+    "CS6172 : Network Simulation Laboratory {Practical}",
+    "CS6175 : Network Programming Laboratory {Practical}",
+    "CS6555 : Network Programming using Rust {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=kumararun",
+  "photo_url": null,
+  "google_scholar": null
+},
+{
+  "name": "Bibhudatta Sahoo",
+  "designation": "Professor & HOD (Computer Science and Engineering)",
+  "email": "bdsahu@nitrkl.ac.in",
+  "specialization": "Algorithmic Engineering, Distributed Systems, Cloud & Edge Computing",
+  "research_interests": [
+    "Data Structures",
+    "Algorithmic Engineering",
+    "Theoretical Computer Science",
+    "Computer Architecture",
+    "Parallel & Distributed Systems",
+    "Cloud Computing",
+    "Fog/Edge Computing",
+    "Internet of Things",
+    "Software Defined Networks",
+    "Virtualized Security",
+    "Web Engineering"
+  ],
+  "education": [
+    "Ph.D. in Computer Science & Engineering, NIT Rourkela (2014)",
+    "M.Tech in Computer Science & Engineering, NIT Rourkela (1999)"
+  ],
+  "publications": 199,
+  "h_index": 132,
+  "courses_taught": [
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS2006 : Design and Analysis of Algorithms {Theory}",
+    "CS2013 : Data Structures {Theory}",
+    "CS242 : Computer Organization and Architecture {Theory}",
+    "CS3003 : Object-Oriented System Design {Theory}",
+    "CS3007 : Compiler Design {Theory}",
+    "CS3009 : Operating Systems {Theory}",
+    "CS332 : Algorithm Analysis and Design {Theory}",
+    "CS333 : Operating Systems {Theory}",
+    "CS412 : Software Engineering {Theory}",
+    "CS421 : Computer Networks {Theory}",
+    "CS431 : Compiler Design {Theory}",
+    "CS433 : Algorithm Design {Theory}",
+    "CS435 : Artificial Intelligence {Theory}",
+    "CS6103 : Data Structure and Algorithm Design {Theory}",
+    "CS612 : Software Engineering {Theory}",
+    "CS6128 : Cloud Computing {Theory}",
+    "CS616 : Algorithm Design {Theory}",
+    "CS632 : Distributed Operating Systems {Theory}",
+    "CS646 : Parallel and Distributed Computing {Theory}",
+    "CS661 : Advanced Data Structures {Theory}",
+    "CS6628 : Cloud and Edge Computing {Theory}",
+    "CS720 : Cloud Computing {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2066 : Algorithm Design Laboratory {Practical}",
+    "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+    "CS2074 : Computer Organization Laboratory {Practical}",
+    "CS2075 : Data Structures Laboratory {Practical}",
+    "CS2076 : Design and Analysis of Algorithms Laboratory {Practical}",
+    "CS274 : VHDL Programming Laboratory {Practical}",
+    "CS3071 : Operating Systems Laboratory {Practical}",
+    "CS3075 : Compiler Design Laboratory {Practical}",
+    "CS384 : Algorithm Analysis and Design Laboratory {Practical}",
+    "CS394 : Special Laboratory in Computer Science and Engineering – II {Practical}",
+    "CS472 : Software Engineering Laboratory {Practical}",
+    "CS479 : Advanced Linux Programming Laboratory {Practical}",
+    "CS481 : Compiler Design Laboratory {Practical}",
+    "CS6173 : Advanced Data Structure Laboratory {Practical}",
+    "CS6381 : Advanced Programming Laboratory {Practical}",
+    "CS670 : Programming Laboratory - I {Practical}",
+    "CS671 : Algorithm Design Laboratory {Practical}",
+    "CS671 : Programming Laboratory – II {Practical}",
+    "CS672 : Software Engineering Laboratory {Practical}",
+    "CS683 : Special Laboratory in Computer Science and Engineering – I {Practical}",
+    "CS777 : Problem Solving Laboratory {Practical}",
+    "CS778 : Advanced Programming Laboratory {Practical}",
+    "CS789 : Product Development Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=bdsahu",
+  "photo_url": null,
+  "google_scholar": null
+},
+
+{
+      "name": "Dev Narayan Yadav",
+      "designation": "Assistant Professor Grade-II",
+      "email": "yadavd@nitrkl.ac.in",
+      "specialization": "In-Memory Computing, Memristor Applications",
+      "research_interests": [
+        "In-Memory Computing",
+        "Memristor-based Logic and Neural Accelerators"
+      ],
+      "education": [
+        "Ph.D. in Computer Science and Engineering, IIT Kharagpur (2023)",
+        "M.Tech in Computer Science and Engineering, NIT Meghalaya (2018)",
+        "B.E in Information Technology, Govt. Engg. College Jagdalpur (2016)"
+      ],
+      "publications": 11,
+      "h_index": 3,
+      "courses_taught": [
+        "CS2008 : Database Engineering {Theory}",
+        "CS2104 : Microcontroller Systems and Applications {Theory}",
+        "CS3014 : IoT and Embedded Systems {Theory}"
+      ],
+      "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=yadavd",
+      "photo_url": null,
+      "google_scholar": null
+    },
+    {
+  "name": "Panthadeep Bhattacharjee",
+  "designation": "Assistant Professor Grade-II",
+  "email": "panthadeep.edu@gmail.com",
+  "specialization": "Incremental Data Mining, Clustering & Anomaly Detection, Human-Computer Interaction",
+  "research_interests": [
+    "Incremental clustering algorithms for dynamic data",
+    "Anomaly detection",
+    "Human-computer interaction"
+  ],
+  "education": [
+    "Ph.D. in Computer Science & Engineering, IIT Guwahati (2021)",
+    "M.Tech in Computer Science & Engineering, NIT Durgapur (2012)",
+    "B.Tech in Information Technology, Assam University Silchar (2010)"
+  ],
+  "publications": 4,
+  "h_index": null,
+  "courses_taught": [
+    "CS2004 : Formal Languages and Automata Theory {Theory}",
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS3003 : Object-Oriented System Design {Theory}",
+    "CS6218 : Machine Learning {Theory}",
+    "CS6225 : Machine Learning {Theory}",
+    "CS6510 : Deep Learning {Theory}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS6272 : Machine Learning Laboratory {Practical}",
+    "CS6379 : Natural Language Processing Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=bhattacharjeep",
+  "photo_url": null,
+  "google_scholar": null
+},
+{
+  "name": "Pankaj K. Sa",
+  "designation": "Associate Professor",
+  "email": "pankajksa@nitrkl.ac.in",
+  "specialization": "Computer Vision and Image Processing, Biometrics, Visual Surveillance, Autonomous Navigation",
+  "research_interests": [
+    "Image Processing",
+    "Computer Vision",
+    "Video Surveillance",
+    "Biometrics",
+    "Autonomous Navigation"
+  ],
+  "education": [
+    "Ph.D. in Image Processing, National Institute of Technology Rourkela (2010)",
+    "M.Tech in Image Processing, National Institute of Technology Rourkela (2006)"
+  ],
+  "publications": 129,
+  "h_index": null,
+  
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithm {Theory}",
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS2001 : Digital System Design {Theory}",
+    "CS3304 : Computer Graphics {Theory}",
+    "CS335 : Computer Graphics {Theory}",
+    "CS335 : Computer Graphics and Multimedia {Theory}",
+    "CS341 : Microprocessors and Microcontrollers {Theory}",
+    "CS343 : Digital Logic Design {Theory}",
+    "CS434 : Image Processing {Theory}",
+    "CS439 : Computer Vision {Theory}",
+    "CS6108 : Linear Algebra and Random Processes {Theory}",
+    "CS613 : Combinatorial Optimization {Theory}",
+    "CS617 : Graph Theory and Network Algorithms {Theory}",
+    "CS6212 : Graph Theory {Theory}",
+    "CS6217 : Biometric Security {Theory}",
+    "CS636 : Image Processing {Theory}",
+    "CS639 : Soft Computing {Theory}",
+    "CS6616 : Topics in Mathematics for Computer Science {Theory}",
+    "CS662 : Linear Algebra and Random Processes {Theory}",
+    "EC300 : Microprocessor {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2073 : Digital System Design Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS367 : Product Development Laboratory – I {Practical}",
+    "CS368 : Product Development Laboratory – II {Practical}",
+    "CS373 : Microprocessor Laboratory {Practical}",
+    "CS375 : Computer Graphics Laboratory {Practical}",
+    "CS4480 : Product Engineering and Innovation Laboratory {Practical}",
+    "CS673 : Image Processing Laboratory {Practical}",
+    "CS771 : Programming Laboratory using Python and R {Practical}",
+    "EC371 : Microprocessors Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=PankajKSa",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=uZD3PU4AAAAJ"
+},
+{
+  "name": "Banshidhar Majhi",
+  "designation": "Professor",
+  "email": "bmajhi@nitrkl.ac.in",
+  "specialization": "Machine Learning, Pattern Recognition, Biometrics, Soft Computing",
+  "research_interests": [
+    "Image Processing",
+    "Machine Learning",
+    "Biometrics",
+    "Pattern Recognition",
+    "Wireless Sensor Networks",
+    "Artificial Intelligence",
+    "Optical Character Recognition"
+  ],
+  "education": [
+    "Ph.D. in Computer Science & Engineering, National Institute of Technology Rourkela (2003)",
+    "M.Tech in Computer Science & Engineering, Regional Engineering College Rourkela (1998)",
+    "MCA, Sambalpur University (1988)"
+  ],
+  "publications": 227,
+  "h_index": 33,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithm {Theory}",
+    "CS313 : Simulation and Modeling {Theory}",
+    "CS333 : Operating Systems {Theory}",
+    "CS334 : Operating Systems Design {Theory}",
+    "CS336 : Digital Signal Processing {Theory}",
+    "CS413 : Advanced Programming Skills {Theory}",
+    "CS435 : Artificial Intelligence {Theory}",
+    "CS448 : Artificial Intelligence & Neural Network {Theory}",
+    "CS630 : Artificial Intelligence {Theory}",
+    "CS635 : Biometric Security {Theory}",
+    "CS636 : Image Processing {Theory}",
+    "CS638 : Pattern Recognition {Theory}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS374 : Operating Systems Laboratory {Practical}",
+    "CS376 : Digital Signal Processing Laboratory {Practical}",
+    "CS485 : Artificial Intelligence Laboratory {Practical}",
+    "CS672 : Software Engineering Laboratory {Practical}",
+    "CS673 : Image Processing Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=bmajhi",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=5hAn5h4AAAAJ"
+},
+{
+  "name": "Durga Prasad Mohapatra",
+  "designation": "Professor",
+  "email": "durga@nitrkl.ac.in",
+  "specialization": "Software Engineering, Formal Methods, UML & Modeling",
+  "research_interests": [
+    "Software Testing",
+    "Formal Methods",
+    "Model-Driven Engineering",
+    "Object-Oriented Modeling and Analysis",
+    "Software Metrics",
+    "Software Reliability",
+    "Requirements Engineering"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, Indian Institute of Technology Kharagpur",
+    "M.E. in Computer Science and Engineering, Regional Engineering College Rourkela (now NIT Rourkela)"
+  ],
+  "publications": 120,
+  "h_index": 21,
+  "courses_taught": [
+    "CS211 : Discrete Mathematics {Theory}",
+    "CS212 : Object Oriented Programming and Web Application Using C# {Theory}",
+    "CS3004 : Software Engineering {Theory}",
+    "CS312 : System Analysis and Design {Theory}",
+    "CS412 : Software Engineering {Theory}",
+    "CS413 : Advanced Programming Skills {Theory}",
+    "CS418 : Real Time Systems {Theory}",
+    "CS610 : Software Design {Theory}",
+    "CS612 : Software Engineering {Theory}",
+    "CS614 : Software Project, Process and Quality Management {Theory}",
+    "CS615 : Software Testing {Theory}",
+    "CS618 : Real Time Systems Design {Theory}",
+    "CS619 : Software Engineering Requirement & Modeling {Theory}",
+    "CS619 : Software Engineering Requirements and Modeling {Theory}",
+    "CS620 : Software Testing {Theory}",
+    "CS6404 : Software Testing {Theory}",
+    "CS6413 : Software Project, Process and Quality Management {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory – II {Practical}",
+    "CS472 : Software Engineering Laboratory {Practical}",
+    "CS6474 : Software Testing Laboratory {Practical}",
+    "CS666 : Software Design Laboratory {Practical}",
+    "CS672 : Software Engineering Laboratory {Practical}",
+    "CS677 : Programming Laboratory {Practical}",
+    "CS683 : Special Laboratory in Computer Science & Engineering {Practical}",
+    "CS683 : Special Laboratory in Computer Science and Engineering – I {Practical}",
+    "CS684 : Software Testing Laboratory {Practical}",
+    "CS690 : Requirement Engineering Laboratory {Practical}",
+    "CS701 : Software Engineering Requirements and Modeling Laboratory {Practical}",
+    "CS704 : Software Testing Laboratory {Practical}",
+    "CS789 : Product Development Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=durga",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=wZKnpG0AAAAJ"
+},
+{
+  "name": "Judhistir Mahapatro",
+  "designation": "Assistant Professor Grade-I",
+  "email": "mahapatroj@nitrkl.ac.in",
+  "specialization": "Software Engineering, Network & Secured Computing, Communication & Computing, Wireless Body Area Networks, Wireless Sensor & Ad-Hoc Networks, Internet of Things",
+  "research_interests": [
+    "Wireless Body Area Networks",
+    "Wireless Sensor and Ad Hoc Networks",
+    "Internet of Things",
+    "Network & Secured Computing",
+    "Communication and Computing"
+  ],
+  "education": [
+    "Ph.D. in Wireless Body Area Networks (IEEE 802.15.6), Indian Institute of Technology Kharagpur (2015)",
+    "M.Tech in Computer Science & Engineering, National Institute of Technology Hamirpur (2009)",
+    "B.Tech in Computer Science & Engineering, Jawaharlal Nehru Technological University Hyderabad (2006)"
+  ],
+  "publications": 26,
+  "h_index": null,
+  "courses_taught": [
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS3002 : Computer Networks {Theory}",
+    "CS3003 : Object-Oriented System Design {Theory}",
+    "CS3004 : Software Engineering {Theory}",
+    "CS412 : Software Engineering {Theory}",
+    "CS421 : Computer Networks {Theory}",
+    "CS612 : Software Engineering {Theory}",
+    "CS6146 : Mobile computing {Theory}",
+    "CS6148 : Principles of Mobile Computing {Theory}",
+    "CS622 : Design of Computer Networks {Theory}",
+    "CS6302 : Advanced Computer Networks {Theory}",
+    "CS6319 : Next Generation Networking Systems {Theory}",
+    "CS6401 : Advanced Software Engineering {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS3072 : Data Comm and Computer Networks Laboratory {Practical}",
+    "CS3074 : Software Engineering Laboratory {Practical}",
+    "CS471 : Computer Network Laboratory {Practical}",
+    "CS472 : Software Engineering Laboratory {Practical}",
+    "CS6172 : Network Simulation Laboratory {Practical}",
+    "CS6175 : Network Programming Laboratory {Practical}",
+    "CS6471 : Advanced Software Engineering Laboratory {Practical}",
+    "CS672 : Software Engineering Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=mahapatroj",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=kbLMkmsAAAAJ"
+},
+{
+  "name": "Manas Kumar Sahoo",
+  "designation": "Assistant Professor Grade-I",
+  "email": "sahoom@nitrkl.ac.in",
+  "specialization": "Data Structures and Algorithms, Operating Systems, Information Theory and Coding, Cloud Computing, Machine Learning",
+  "research_interests": [
+    "Data Structures",
+    "Algorithms",
+    "Operating Systems",
+    "Information Theory and Coding",
+    "Cloud Computing",
+    "Machine Learning"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, National Institute of Technology Rourkela"
+    
+  ],
+  "publications": 43,
+  "h_index": null,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithm {Theory}",
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS2013 : Data Structures {Theory}",
+    "CS213 : Principles of Programming Languages {Theory}",
+    "CS3009 : Operating Systems {Theory}",
+    "CS321 : Data Communication {Theory}",
+    "CS333 : Operating Systems {Theory}",
+    "CS334 : Operating Systems Design {Theory}",
+    "CS6103 : Data Structure and Algorithm Design {Theory}",
+    "CS6218 : Machine Learning {Theory}",
+    "CS6303 : Information Theory and Coding {Theory}",
+    "CS631 : Information Theory and Coding {Theory}",
+    "CS720 : Cloud Computing {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+    "CS2075 : Data Structures Laboratory {Practical}",
+    "CS271 : Data Structure Laboratory {Practical}",
+    "CS3071 : Operating Systems Laboratory {Practical}",
+    "CS371 : Data Communication Laboratory {Practical}",
+    "CS374 : Operating Systems Laboratory {Practical}",
+    "CS479 : Advanced Linux Programming Laboratory {Practical}",
+    "CS6173 : Advanced Data Structure Laboratory {Practical}",
+    "CS6272 : Machine Learning Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=sahoom",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=8ZUNgvEAAAAJ"
+},
+{
+  "name": "Pabitra Mohan Khilar",
+  "designation": "Professor",
+  "email": "pmkhilar@nitrkl.ac.in",
+  "specialization": "Wireless Sensor Networks, Vehicular Ad Hoc Networks, Distributed Embedded Systems, Fault Tolerant Computing, Parallel and Distributed Computing",
+  "research_interests": [
+    "Vehicular Ad Hoc Networks",
+    "Wireless Sensor Networks",
+    "Distributed Embedded Systems",
+    "High Performance Computing",
+    "Fault Tolerance",
+    "Parallel and Distributed Systems"
+  ],
+  "education": [
+    "Ph.D. in Distributed Fault Diagnosis in Wireless Adhoc Networks & Distributed Embedded Systems, Indian Institute of Technology Kharagpur (2009)",
+    "M.Tech in Computer Science & Engineering, National Institute of Technology Rourkela (1999)",
+    "B.Tech in Computer Science & Engineering, JMIT Chitradurga (1990)"
+  ],
+  "publications": 103,
+  "h_index": 20,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS2001 : Digital System Design {Theory}",
+    "CS211 : Discrete Mathematics {Theory}",
+    "CS242 : Computer Organization and Architecture {Theory}",
+    "CS3001 : Data Communication {Theory}",
+    "CS3005 : Microprocessors and Microcontrollers {Theory}",
+    "CS3006 : Distributed Systems {Theory}",
+    "CS321 : Data Communication {Theory}",
+    "CS326 : Data Communication and Computer Networks {Theory}",
+    "CS331 : Theory of Computation {Theory}",
+    "CS338 : System Software {Theory}",
+    "CS338 : Systems Software {Theory}",
+    "CS341 : Microprocessors and Microcontrollers {Theory}",
+    "CS423 : Ad-hoc and Wireless Networks {Theory}",
+    "CS431 : Compiler Design {Theory}",
+    "CS441 : Advanced Computer Architecture {Theory}",
+    "CS442 : Computer System Architecture {Theory}",
+    "CS444 : Cluster and Grid Computing {Theory}",
+    "CS6114 : Wireless Sensor Networks {Theory}",
+    "CS6115 : Advanced Computer Architecture {Theory}",
+    "CS641 : Advanced Computer Architecture {Theory}",
+    "CS642 : Cluster and Grid Computing {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS274 : VHDL Programming Laboratory {Practical}",
+    "CS3073 : Microprocessors Laboratory {Practical}",
+    "CS368 : Product Development Laboratory – II {Practical}",
+    "CS371 : Data Communication Laboratory {Practical}",
+    "CS373 : Microprocessor Laboratory {Practical}",
+    "CS378 : Systems Programming Laboratory {Practical}",
+    "CS393 : Special Laboratory in Comp. Sc. Engineering - I {Practical}",
+    "CS4470 : Distributed Computing Laboratory {Practical}",
+    "CS481 : Compiler Design Laboratory {Practical}",
+    "CS674 : Network Simulation Laboratory {Practical}",
+    "CS677 : Software Laboratory using NS2/NETSIM/QUALNET {Practical}",
+    "CS709 : Wireless Sensor Network Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=pmkhilar",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=eMa8oY0AAAAJ"
+},
+{
+  "name": "Prasenjit Dey",
+  "designation": "Assistant Professor Grade-II",
+  "email": "deyp@nitrkl.ac.in",
+  "specialization": "Artificial Intelligence, Machine Learning, Image Processing, Data Science",
+  "research_interests": [
+    "Micro-expression Recognition and Classification",
+    "Machine Learning",
+    "Computer Vision",
+    "Image Enhancement for Underwater Object Detection",
+    "Internet of Things in Healthcare",
+    "Data Science and Analytics"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, National Institute of Technology Durgapur (2018)",
+    "M.Tech in Computer Science and Engineering, National Institute of Technology Durgapur (2012)",
+    "B.Tech in Computer Science and Engineering, College of Engineering and Management, Kolaghat (2010)"
+  ],
+  "publications": 34,
+  "h_index": 5,
+  "courses_taught": [
+    "CS2003 : Discrete Structures {Theory}",
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS2062 : Database Management Systems {Theory}",
+    "CS3004 : Software Engineering {Theory}",
+    "CS6315 : Data Science {Theory}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS2072 : Database Engineering Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS3071 : Operating Systems Laboratory {Practical}",
+    "CS3074 : Software Engineering Laboratory {Practical}",
+    "CS6385 : Data Science Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=deyp",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=dLUtJaUAAAAJ"
+},
+{
+  "name": "Puneet Kumar Jain",
+  "designation": "Assistant Professor Grade-II",
+  "email": "jainp@nitrkl.ac.in",
+  "specialization": "Intelligent Computing, Artificial Intelligence, Computer Vision, Deep Learning",
+  "research_interests": [
+    "Computer Vision",
+    "Image and Video Processing",
+    "Deep Learning",
+    "Digital Healthcare Applications",
+    "Artificial Intelligence",
+    "Pattern Recognition"
+  ],
+  "education": [
+    "Ph.D. in Information and Communication Technology, Indian Institute of Technology Jodhpur (2018)",
+    "M.Tech in Information Systems, Delhi Technological University (2011)",
+    "B.E. in Computer Science and Engineering, Government Engineering College Bikaner (2009)"
+  ],
+  "publications": 31,
+  "h_index": 9,
+  "courses_taught": [
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS2061 : Data Structure Applications and Algorithms {Theory}",
+    "CS3003 : Object-Oriented System Design {Theory}",
+    "CS3004 : Software Engineering {Theory}",
+    "CS3303 : Computer Vision {Theory}",
+    "CS6218 : Machine Learning {Theory}",
+    "CS6412 : Artificial Intelligence {Theory}",
+    "CS6510 : Deep Learning {Theory}",
+    "EA1270 : Value Education and Ethics {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+    "CS2081 : Data Structure Applications and Algorithms Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS3074 : Software Engineering Laboratory {Practical}",
+    "CS3077 : Web and Mobile Application Development {Practical}",
+    "CS4373 : Artificial Intelligence Laboratory {Practical}",
+    "CS4374 : Computer Vision Laboratory {Practical}",
+    "CS6272 : Machine Learning Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=jainp",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=nuqj9VYAAAAJ"
+},
+{
+  "name": "Ramesh Kumar Mohapatra",
+  "designation": "Associate Professor",
+  "email": "mohapatrark@nitrkl.ac.in",
+  "specialization": "Optical Character Recognition, Computer Vision, Blockchain Technology, Secure Computing, Machine Learning",
+  "research_interests": [
+    "Optical Character Recognition",
+    "Document Image Analysis",
+    "Blockchain Technology",
+    "Computer Vision",
+    "Network Security",
+    "Machine Learning",
+    "Cryptography",
+    "Secure Computing"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, National Institute of Technology Rourkela (2016)",
+    "M.Tech in Computer Science and Engineering, National Institute of Technology Rourkela (2010)",
+    "B.E. in Computer Science and Engineering, Institute of Technical Education and Research, Bhubaneswar (2003)"
+  ],
+  "publications": 53,
+  "h_index": 15,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithm {Theory}",
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS2002 : Computer Organization and Architecture {Theory}",
+    "CS2004 : Formal Languages and Automata Theory {Theory}",
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS211 : Discrete Mathematics {Theory}",
+    "CS242 : Computer Organization and Architecture {Theory}",
+    "CS3002 : Computer Networks {Theory}",
+    "CS3011 : Formal Language and Automata Theory {Theory}",
+    "CS325 : Cryptographic Foundation {Theory}",
+    "CS331 : Theory of Computation {Theory}",
+    "CS332 : Algorithm Analysis and Design {Theory}",
+    "CS431 : Compiler Design {Theory}",
+    "CS440 : Cryptographic Foundations {Theory}",
+    "CS6128 : Cloud Computing {Theory}",
+    "CS621 : Cryptographic Foundations {Theory}",
+    "CS6220 : Computer Vision {Theory}",
+    "CS6221 : Blockchain and Cryptocurrency Technology {Theory}",
+    "CS629 : Network Security {Theory}",
+    "CS6301 : Foundations of Computer Security {Theory}",
+    "CS6304 : Network Security {Theory}",
+    "CS636 : Image Processing {Theory}",
+    "CS708 : Machine Learning {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2073 : Digital System Design Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS271 : Data Structure and Database Laboratory {Practical}",
+    "CS271 : Data Structure Laboratory {Practical}",
+    "CS384 : Algorithm Analysis and Design Laboratory {Practical}",
+    "CS393 : Special Laboratory in Computer Science and Engineering – I {Practical}",
+    "CS481 : Compiler Design Laboratory {Practical}",
+    "CS6371 : Cryptography Laboratory {Practical}",
+    "CS6372 : Network Security Laboratory {Practical}",
+    "CS676 : Cryptography Laboratory {Practical}",
+    "CS679 : Network Security Laboratory {Practical}",
+    "CS776 : Machine Learning Laboratory {Practical}",
+    "EA2110 : Professional Culture and Lifestyle in Healthcare {Practical}",
+    "EA2120 : Personality Development {Practical}",
+    "EA2410 : Sustainable Living {Practical}",
+    "EA2440 : Entrepreneurship {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=mohapatrark",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=pY9mO6gAAAAJ"
+},
+
+{
+  "name": "Ratnakar Dash",
+  "designation": "Associate Professor",
+  "email": "ratnakar@nitrkl.ac.in",
+  "specialization": "Computer Vision, Machine Learning, Deep Learning",
+  "research_interests": [
+    "Computer Vision",
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "education": [
+    "Ph.D. in Computer Science & Engineering, National Institute of Technology Rourkela "
+  ],
+  "publications": 85,
+  "h_index": 48,
+  "courses_taught": [
+    "CS2001 : Digital System Design {Theory}",
+    "CS2002 : Computer Organization and Architecture {Theory}",
+    "CS241 : Analog Electronics {Theory}",
+    "CS315 : Optimization Techniques {Theory}",
+    "CS321 : Data Communication {Theory}",
+    "CS3305 : Digital Signal Processing {Theory}",
+    "CS336 : Digital Signal Processing {Theory}",
+    "CS341 : Microprocessors and Microcontrollers {Theory}",
+    "CS343 : Digital Logic Design {Theory}",
+    "CS421 : Computer Networks {Theory}",
+    "CS434 : Image Processing {Theory}",
+    "CS437 : Soft Computing {Theory}",
+    "CS6214 : Image Processing {Theory}",
+    "CS6218 : Machine Learning {Theory}",
+    "CS6224 : Machine Learning : Theory and Practice {Theory}",
+    "CS636 : Image Processing {Theory}",
+    "CS638 : Pattern Recognition {Theory}",
+    "CS708 : Machine Learning {Theory}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2073 : Digital System Design Laboratory {Practical}",
+    "CS2074 : Computer Organization Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS273 : Digital Electronics Laboratory {Practical}",
+    "CS3072 : Data Comm and Computer Networks Laboratory {Practical}",
+    "CS371 : Data Communication Laboratory {Practical}",
+    "CS373 : Microprocessor Laboratory {Practical}",
+    "CS376 : Digital Signal Processing Laboratory {Practical}",
+    "CS471 : Computer Network Laboratory {Practical}",
+    "CS474 : Image Processing Laboratory {Practical}",
+    "CS6272 : Machine Learning Laboratory {Practical}",
+    "CS6475 : Soft Computing Laboratory {Practical}",
+    "CS673 : Image Processing Laboratory {Practical}",
+    "CS683 : Special Laboratory in Computer Science & Engineering {Practical}",
+    "CS697 : Software Laboratory using MATLAB {Practical}",
+    "CS698 : Software Laboratory using VHDL/VERILOG {Practical}",
+    "CS776 : Machine Learning Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=ratnakar",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=d57JEd4AAAAJ"
+},
+{
+  "name": "Asha S.",
+  "designation": "Assistant Professor Grade-II",
+  "email": "ashas@nitrkl.ac.in",
+  "specialization": "Biometric Security, Software Engineering, Artificial Intelligence, Data Communication",
+  "research_interests": [
+    "Biometric Security",
+    "Artificial Intelligence and Machine Learning",
+    "Software Engineering",
+    "Data Communication and Networking",
+    "Blockchain and Cryptocurrency Technology"
+  ],
+  "education": [
+    "Ph.D. in Biometric Security, Anna University (2014)",
+    "M.E. in Computer Science and Engineering, SRM University (2006)",
+    "MCA in Computer Applications, Bharathiar University (2004)"
+  ],
+  "publications": null,
+  "h_index": null,
+  "courses_taught": [
+    "CS2002 : Computer Organization and Architecture {Theory}",
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS2016 : Object Oriented Design and Programming {Theory}",
+    "CS3001 : Data Communication {Theory}",
+    "CS3003 : Object-Oriented System Design {Theory}",
+    "CS3004 : Software Engineering {Theory}",
+    "CS6221 : Blockchain and Cryptocurrency Technology {Theory}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS2082 : Database Management Systems Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS3071 : Operating Systems Laboratory {Practical}",
+    "CS3074 : Software Engineering Laboratory {Practical}",
+    "CS6172 : Network Simulation Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=ashas",
+  "photo_url": null,
+  "google_scholar": null
+},
+{
+  "name": "Sambit Bakshi",
+  "designation": "Associate Professor",
+  "email": "bakshisambit@nitrkl.ac.in",
+  "specialization": "Biometric Security, Visual Surveillance, Multimedia Forensics, Social Security Analytics",
+  "research_interests": [
+    "Biometric Security",
+    "Visual Surveillance",
+    "Multimedia Forensics",
+    "Social Security Analytics",
+    "Computer Vision",
+    "Machine Learning",
+    "Pattern Recognition"
+  ],
+  "education": [
+    "Ph.D. in Biometric Security, National Institute of Technology Rourkela (2015)",
+    "M.Tech in Computer Science and Engineering, [Institution Name] (Year)",
+    "B.Tech in Computer Science and Engineering, [Institution Name] (Year)"
+  ],
+  "publications": 109,
+  "h_index": 68,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS2008 : Database Engineering {Theory}",
+    "CS2062 : Database Management Systems {Theory}",
+    "CS334 : Operating Systems Design {Theory}",
+    "CS335 : Computer Graphics {Theory}",
+    "CS430 : Information Theory and Coding {Theory}",
+    "CS6151 : Biometric Systems {Theory}",
+    "CS6217 : Biometric Security {Theory}",
+    "CS6303 : Information Theory and Coding {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory – II {Practical}",
+    "CS2064 : Database Design Laboratory {Practical}",
+    "CS2071 : Data Structure and Algorithms Laboratory {Practical}",
+    "CS2072 : Database Engineering Laboratory {Practical}",
+    "CS2082 : Database Management Systems Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=bakshisambit",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=7lhTvv8AAAAJ"
+},
+{
+  "name": "Sanjeev Patel",
+  "designation": "Assistant Professor Grade-I",
+  "email": "patels@nitrkl.ac.in",
+  "specialization": "Computer Networks, Network Security, Performance Evaluation of Computer Systems, Software Engineering",
+  "research_interests": [
+    "Computer Networks",
+    "Network Security",
+    "Wireless and Mobile Networks",
+    "Performance Evaluation of Computer Systems",
+    "Software Engineering",
+    "Internet of Things (IoT)"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Technology, Jawaharlal Nehru University, New Delhi (2017)",
+    "M.Tech in Computer Science and Technology, Jawaharlal Nehru University, New Delhi (2008)",
+    "B.Tech in Computer Science and Engineering, Motilal Nehru National Institute of Technology, Allahabad, Prayagraj (2005)"
+  ],
+  "publications": 58,
+  "h_index": 15,
+  "courses_taught": [
+    "CS3001 : Data Communication {Theory}",
+    "CS3002 : Computer Networks {Theory}",
+    "CS3003 : Object-Oriented System Design {Theory}",
+    "CS4061 : Fundamentals of Software Engineering {Theory}",
+    "CS4062 : Fundamentals of Computer Networks {Theory}",
+    "CS6122 : Performance Evaluation of Computer Systems {Theory}",
+    "CS6504 : Performance Analysis of Computing Systems {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS3072 : Data Comm and Computer Networks Laboratory {Practical}",
+    "CS3074 : Software Engineering Laboratory {Practical}",
+    "CS6172 : Network Simulation Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=patels",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=1z_MPCIAAAAJ"
+},
+{
+  "name": "Shyamapada Mukherjee",
+  "designation": "Assistant Professor Grade-I",
+  "email": "mukherjees@nitrkl.ac.in",
+  "specialization": "VLSI Physical Design Automation, FPGA Architectures, Quantum Computing, Compiler Design, Operating Systems",
+  "research_interests": [
+    "VLSI Physical Design Automation",
+    "FPGA Architectures",
+    "Quantum Computing",
+    "High Performance Computing",
+    "Compiler Design",
+    "Operating Systems",
+    "Machine Learning Applications in VLSI Design"
+  ],
+  "education": [
+    "Ph.D. in VLSI Physical Design Automation and FPGA Architectures, National Institute of Technology Durgapur (2015)",
+    "M.Tech in Computer Science and Engineering, University of Calcutta (2006)",
+    "B.E. in Computer Science and Engineering, University of Burdwan (2004)"
+  ],
+  "publications": 50,
+  "h_index": 8,
+  "courses_taught": [
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS2013 : Data Structures {Theory}",
+    "CS3007 : Compiler Design {Theory}",
+    "CS3062 : Principles of Operating Systems {Theory}",
+    "CS6520 : Quantum Computing {Theory}",
+    "CS2075 : Data Structures Laboratory {Practical}",
+    "CS3075 : Compiler Design Laboratory {Practical}",
+    "CS6862 : Applied Hardware Architecture Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=mukherjees",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=t0ezLj8AAAAJ"
+},
+{
+  "name": "Sibarama Panigrahi",
+  "designation": "Assistant Professor Grade-I",
+  "email": "panigrahis@nitrkl.ac.in",
+  "specialization": "Machine Learning, Deep Learning, Data Science, Soft Computing, Time Series Forecasting",
+  "research_interests": [
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science",
+    "Soft Computing",
+    "Time Series Forecasting",
+    "Computational Intelligence",
+    "Artificial Neural Networks"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, Veer Surendra Sai University of Technology (Formerly UCE Burla) (2019)",
+    "M.Tech in Computer Science and Engineering, Veer Surendra Sai University of Technology (Formerly UCE Burla) (2013)"
+   
+  ],
+  "publications": 52,
+  "h_index": 21,
+  "courses_taught": [
+    "CS2005 : Data Structures and Algorithms {Theory}",
+    "CS2011 : Introduction to AI and ML {Theory}",
+    "CS2061 : Data Structure Applications and Algorithms {Theory}",
+    "CS3303 : Computer Vision {Theory}",
+    "CS6315 : Data Science {Theory}",
+    "CS6355 : Applied Data Science {Theory}",
+    "CS6510 : Deep Learning {Theory}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS2081 : Data Structure Applications and Algorithms Laboratory {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS4374 : Computer Vision Laboratory {Practical}",
+    "CS6385 : Data Science Laboratory {Practical}",
+    "CS6475 : Soft Computing Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=panigrahis",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=vB_IQPEAAAAJ"
+},
+{
+  "name": "Suchismita Chinara",
+  "designation": "Associate Professor",
+  "email": "suchismita@nitrkl.ac.in",
+  "specialization": "Computer Networks, Wireless Sensor Networks, Internet of Things, Network Security, Embedded Systems",
+  "research_interests": [
+    "Computer Networks",
+    "Wireless Sensor Networks",
+    "Internet of Things",
+    "Network Security",
+    "Embedded Systems",
+    "Ad-hoc Networks",
+    "Software Engineering",
+    "Performance Evaluation of Network Protocols"
+  ],
+  "education": [
+    "Ph.D. in Computer Science and Engineering, National Institute of Technology Rourkela (2011)"
+    
+  ],
+  "publications": 40,
+  "h_index": null,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS211 : Discrete Mathematics {Theory}",
+    "CS241 : Analog Electronics {Theory}",
+    "CS242 : Computer Organization and Architecture {Theory}",
+    "CS243 : Digital Electronics {Theory}",
+    "CS3001 : Data Communication {Theory}",
+    "CS3014 : IoT and Embedded Systems {Theory}",
+    "CS3062 : Principles of Operating Systems {Theory}",
+    "CS326 : Data Communication and Computer Networks {Theory}",
+    "CS412 : Software Engineering {Theory}",
+    "CS421 : Computer Networks {Theory}",
+    "CS442 : Computer System Architecture {Theory}",
+    "CS447 : Internet of Things {Theory}",
+    "CS6114 : Wireless Sensor Networks {Theory}",
+    "CS612 : Software Engineering {Theory}",
+    "CS622 : Design of Computer Networks {Theory}",
+    "CS623 : Ad-hoc and Wireless Networks {Theory}",
+    "CS6302 : Advanced Computer Networks {Theory}",
+    "CS6316 : Internet of Things {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS3065 : IoT Prototyping Laboratory {Practical}",
+    "CS471 : Computer Network Laboratory {Practical}",
+    "CS472 : Software Engineering Laboratory {Practical}",
+    "CS6172 : Network Simulation Laboratory {Practical}",
+    "CS6175 : Network Programming Laboratory {Practical}",
+    "CS6380 : Internet of Things Laboratory {Practical}",
+    "CS674 : Network Simulation Laboratory {Practical}",
+    "CS677 : Software Laboratory using NS2/NETSIM/QUALNET {Practical}",
+    "CS680 : Cryptography Laboratory - II {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=suchismita",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=ePLhZPgAAAAJ"
+},
+{
+  "name": "Sujata Mohanty",
+  "designation": "Associate Professor",
+  "email": "sujatam@nitrkl.ac.in",
+  "specialization": "Cryptography, Network Security, Computer Architecture, Intrusion Detection Systems",
+  "research_interests": [
+    "Cryptography",
+    "Network Security",
+    "Intrusion Detection Systems",
+    "Parallel Algorithms",
+    "Software Security",
+    "Computer Architecture",
+    "Digital Logic Design"
+  ],
+  "education": [
+    "Ph.D. in Design of Digital Signature Protocols and Their Variants, National Institute of Technology Rourkela (2013)",
+    "M.Tech in Computer Science and Engineering, [Institution Not Specified]",
+    "B.Tech in Computer Science and Engineering, [Institution Not Specified]"
+  ],
+  "publications": 32,
+  "h_index": 6,
+  "courses_taught": [
+    "CS2001 : Digital System Design {Theory}",
+    "CS213 : Principles of Programming Languages {Theory}",
+    "CS243 : Digital Electronics {Theory}",
+    "CS3005 : Microprocessors and Microcontrollers {Theory}",
+    "CS312 : Systems Analysis and Design {Theory}",
+    "CS341 : Microprocessors and Microcontrollers {Theory}",
+    "CS343 : Digital Logic Design {Theory}",
+    "CS427 : Network Security {Theory}",
+    "CS440 : Cryptographic Foundations {Theory}",
+    "CS441 : Advanced Computer Architecture {Theory}",
+    "CS442 : Computer System Architecture {Theory}",
+    "CS612 : Software Engineering {Theory}",
+    "CS621 : Cryptographic Foundations {Theory}",
+    "CS626 : Intrusion Detection Systems {Theory}",
+    "CS6301 : Foundations of Computer Security {Theory}",
+    "CS6304 : Network Security {Theory}",
+    "CS6306 : Intrusion Detection Systems {Theory}",
+    "CS645 : Parallel Algorithms {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory - II {Practical}",
+    "CS2073 : Digital System Design Laboratory {Practical}",
+    "CS273 : Digital Electronics Laboratory {Practical}",
+    "CS3073 : Microprocessors Laboratory {Practical}",
+    "CS367 : Product Development Laboratory – I {Practical}",
+    "CS368 : Product Development Laboratory – II {Practical}",
+    "CS372 : Systems Analysis and Design Laboratory {Practical}",
+    "CS373 : Microprocessor Laboratory {Practical}",
+    "CS6371 : Cryptography Laboratory {Practical}",
+    "CS6372 : Network Security Laboratory {Practical}",
+    "CS676 : Cryptography Laboratory - I {Practical}",
+    "CS678 : OS and Database Security Laboratory {Practical}",
+    "CS680 : Cryptography Laboratory - II {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=sujatam",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=UyaKf5oAAAAJ"
+},
+{
+  "name": "Sumanta Pyne",
+  "designation": "Assistant Professor Grade-I",
+  "email": "pynes@nitrkl.ac.in",
+  "specialization": "Low Power VLSI and Embedded Computing, Computer Architecture, Energy-Efficient Systems, Real-Time Systems",
+  "research_interests": [
+    "Power-Aware Software Design",
+    "Low Power VLSI Systems",
+    "Embedded Computing",
+    "Computer Architecture",
+    "Real-Time Systems",
+    "Energy-Efficient Scheduling",
+    "In-Memory Computing",
+    "GPU Architecture and Programming"
+  ],
+  "education": [
+    "Ph.D. in Power Aware Software, Indian Institute of Technology Kharagpur (2016)",
+    "M.E. in Computer Science and Engineering, Bengal Engineering and Science University, Shibpur (2009)",
+    "B.Tech in Computer Science and Engineering, Meghnad Saha Institute of Technology (2005)"
+  ],
+  "publications": 35,
+  "h_index": null,
+  "courses_taught": [
+    "CS102 : Data Structures and Algorithms {Theory}",
+    "CS2004 : Formal Languages and Automata Theory {Theory}",
+    "CS2006 : Design and Analysis of Algorithms {Theory}",
+    "CS2013 : Data Structures {Theory}",
+    "CS2104 : Microcontroller Systems and Applications {Theory}",
+    "CS211 : Discrete Mathematics {Theory}",
+    "CS3001 : Data Communication {Theory}",
+    "CS3007 : Compiler Design {Theory}",
+    "CS3011 : Formal Language and Automata Theory {Theory}",
+    "CS321 : Data Communication {Theory}",
+    "CS332 : Algorithm Analysis and Design {Theory}",
+    "CS341 : Microprocessors and Microcontrollers {Theory}",
+    "CS431 : Compiler Design {Theory}",
+    "CS442 : Computer System Architecture {Theory}",
+    "CS6414 : Real-Time Systems Design {Theory}",
+    "CS6530 : GPU Architecture and Programming {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS171 : Computing Laboratory - I {Practical}",
+    "CS172 : Computing Laboratory – II {Practical}",
+    "CS2066 : Algorithm Design Laboratory {Practical}",
+    "CS2075 : Data Structures Laboratory {Practical}",
+    "CS2076 : Design and Analysis of Algorithms Laboratory {Practical}",
+    "CS3075 : Compiler Design Laboratory {Practical}",
+    "CS371 : Data Communication Laboratory {Practical}",
+    "CS373 : Microprocessor Laboratory {Practical}",
+    "CS384 : Algorithm Analysis and Design Laboratory {Practical}",
+    "CS481 : Compiler Design Laboratory {Practical}",
+    "CS698 : Software Laboratory using VHDL/VERILOG {Practical}",
+    "CS789 : Product Development Laboratory {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=pynes",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=tRwYhT8AAAAJ"
+},
+{
+  "name": "Tapas Kumar Mishra",
+  "designation": "Assistant Professor Grade-I",
+  "email": "mishrat@nitrkl.ac.in",
+  "specialization": "Algorithms, Graph Theory, Combinatorics, Natural Language Processing, Computational Geometry",
+  "research_interests": [
+    "Algorithms",
+    "Combinatorics",
+    "Graph Theory",
+    "Approximation and Randomized Algorithms",
+    "Computational Geometry",
+    "Natural Language Processing",
+    "Machine Learning"
+  ],
+  "education": [
+    "Ph.D. in Algorithms, Indian Institute of Technology Kharagpur (2017)",
+    "M.Tech in Computer Science and Engineering, Indian Institute of Technology Kharagpur (2013)",
+    "B.Tech in Computer Science and Engineering, Veer Surendra Sai University of Technology, Burla (2010)"
+  ],
+  "publications": 26,
+  "h_index": 8,
+  "courses_taught": [
+    "CS2003 : Discrete Structures {Theory}",
+    "CS2004 : Formal Languages and Automata Theory {Theory}",
+    "CS211 : Discrete Mathematics {Theory}",
+    "CS3007 : Compiler Design {Theory}",
+    "CS6212 : Graph Theory {Theory}",
+    "CS6218 : Machine Learning {Theory}",
+    "CS6223 : Approximation and Randomized Algorithms {Theory}",
+    "CS6314 : Natural Language Processing {Theory}",
+    "CS6427 : Computational Geometry {Theory}",
+    "CS1000 : Basic Programming {Practical}",
+    "CS1010 : Programming for Problem Solving {Practical}",
+    "CS2672 : AI and ML Laboratory {Practical}",
+    "CS3072 : Data Comm and Computer Networks Laboratory {Practical}",
+    "CS3075 : Compiler Design Laboratory {Practical}",
+    "CS6060 : Product Innovation Laboratory {Practical}",
+    "CS6272 : Machine Learning Laboratory {Practical}",
+    "CS6379 : Natural Language Processing Laboratory {Practical}",
+    "CS6555 : Network Programming using Rust {Practical}"
+  ],
+  "profile_url": "https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/?id=mishrat",
+  "photo_url": null,
+  "google_scholar": "https://scholar.google.com/citations?user=V5N5aM4AAAAJ"
+}
+],
+
   "courses": [
     {
       "code": "CS601",
@@ -257,82 +1399,460 @@
       ]
     }
   ],
-  "facilities": {
-    "labs": [
-      {
-        "name": "AI and Machine Learning Lab",
-        "capacity": 40,
-        "equipment": "High-end GPU workstations, Deep Learning servers",
-        "software": "TensorFlow, PyTorch, Keras, Scikit-learn"
-      },
-      {
-        "name": "Data Science Lab",
-        "capacity": 35,
-        "equipment": "Big Data cluster, Analytics workstations",
-        "software": "Hadoop, Spark, R, Python, Tableau"
-      },
-      {
-        "name": "Cybersecurity Lab",
-        "capacity": 30,
-        "equipment": "Isolated network environment, Security testing tools",
-        "software": "Kali Linux, Wireshark, Metasploit, Burp Suite"
-      },
-      {
-        "name": "Computer Vision Lab",
-        "capacity": 30,
-        "equipment": "High-resolution cameras, Image processing workstations",
-        "software": "OpenCV, MATLAB, Vision frameworks"
-      },
-      {
-        "name": "Cloud Computing Lab",
-        "capacity": 40,
-        "equipment": "Virtual machines, Container orchestration setup",
-        "software": "Docker, Kubernetes, AWS, Azure"
-      }
-    ],
-    "research_centers": [
-      {
-        "name": "Center for Artificial Intelligence and Robotics",
-        "focus": "AI research and intelligent systems development",
-        "head": "Dr. Rajesh Kumar"
-      },
-      {
-        "name": "Data Science and Analytics Research Group",
-        "focus": "Big data analytics and business intelligence",
-        "head": "Dr. Priya Sharma"
-      },
-      {
-        "name": "Cybersecurity Research Lab",
-        "focus": "Network security and cryptographic research",
-        "head": "Dr. Amit Patel"
-      }
-    ]
-  },
+
+  
+
   "placements": {
-    "average_package": "₹12.5 LPA",
-    "highest_package": "₹45 LPA",
-    "placement_percentage": "95%",
-    "top_recruiters": [
+    "B.Tech": {
+      "students": 128,
+      "job_offers": 144,
+      "ctc_lpa": {
+        "minimum": 5.50,
+        "maximum": 62.44,
+        "average": 19.43,
+        "median": 14.50
+      }
+    },
+    "M.Tech": {
+      "students": 49,
+      "job_offers": 52,
+      "ctc_lpa": {
+        "minimum": 6.00,
+        "maximum": 46.38,
+        "average": 20.93,
+        "median": 19.41
+      }
+    },
+    "Ph.D.": {
+      "students": 6,
+      "job_offers": 6,
+      "ctc_lpa": {
+        "minimum": 11.40,
+        "maximum": 16.00,
+        "average": 14.57,
+        "median": 16.00
+      }
+    },
+    "top_recruiters_cse": [
       "Google",
       "Microsoft",
       "Amazon",
+      "Apple",
+      "NVIDIA",
+      "IBM",
+      "Qualcomm",
+      "Texas Instruments",
+      "Oracle",
+      "Adobe",
+      "Intel",
+      "AMD",
+      "Dell Technologies",
+      "Samsung",
+      "Cisco",
+      "ARM",
+      "Micron",
+      "Capgemini",
+      "Deloitte",
+      "EY",
+      "PwC",
+      "Accenture",
+      "ZS Associates",
+      "TCS Research",
+      "Infosys",
+      "Wipro",
+      "Tech Mahindra",
+      "Publicis Sapient",
+      "HCLTech",
+      "Amdocs",
+      "SAP",
+      "MathWorks",
+      "GE Digital",
+      "Dassault Systèmes",
+      "Reliance Industries Limited (Jio Platforms)",
+      "Swiggy",
+      "Delhivery",
+      "OYO",
+      "PhonePe",
+      "CRED",
+      "Sprinklr",
+      "Airtel",
+      "AWS",
+      "Google Pay",
+      "Paytm",
       "Goldman Sachs",
       "Morgan Stanley",
-      "Flipkart",
-      "Adobe",
-      "Oracle",
-      "Cisco",
-      "TCS Research"
+      "BNY Mellon",
+      "Barclays",
+      "DE Shaw & Co",
+      "JP Morgan Chase",
+      "American Express",
+      "Visa",
+      "Tata Consultancy Services",
+      "Hyundai Mobis (Software Division)",
+      "NPCI",
+      "Ola",
+      "UiPath",
+      "PharmEasy",
+      "Honeywell",
+      "John Deere",
+      "Siemens",
+      "ABB",
+      "Analog Devices",
+      "L&T Technology Services",
+      "Schneider Electric"
+    ] ,
+
+  "last_updated": "2025-11-05"
+} ,
+
+  "Academic_Research_Groups": {
+    "Group 1: Communication and Computing": [
+      {
+        "Name": "Arun Kumar",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "kumararun@nitrkl.ac.in"
+      },
+      {
+        "Name": "Bibhudatta Sahoo",
+        "Designation": "Professor",
+        "Email": "bdsahu@nitrkl.ac.in"
+      },
+      {
+        "Name": "Judhistir Mahapatro",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "mahapatroj@nitrkl.ac.in"
+      },
+      {
+        "Name": "Manmath Narayan Sahoo",
+        "Designation": "Associate Professor",
+        "Email": "sahoom@nitrkl.ac.in"
+      },
+      {
+        "Name": "Pabitra Mohan Khilar",
+        "Designation": "Professor",
+        "Email": "pmkhilar@nitrkl.ac.in"
+      },
+      {
+        "Name": "Sanjeev Patel",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "patels@nitrkl.ac.in"
+      },
+      {
+        "Name": "Sumanta Pyne",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "pynes@nitrkl.ac.in"
+      },
+      {
+        "Name": "Tapas Kumar Mishra",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "mishrat@nitrkl.ac.in"
+      }
+    ],
+
+    "Group 2: Intelligent Computing and Computer Vision": [
+      {
+        "Name": "Anup Nandy",
+        "Designation": "Associate Professor",
+        "Email": "nandya@nitrkl.ac.in"
+      },
+      {
+        "Name": "Banshidhar Majhi",
+        "Designation": "Professor",
+        "Email": "bmajhi@nitrkl.ac.in"
+      },
+      {
+        "Name": "Pankaj Kumar Sa",
+        "Designation": "Professor",
+        "Email": "PankajKSa@nitrkl.ac.in"
+      },
+      {
+        "Name": "Panthadeep Bhattacharjee",
+        "Designation": "Assistant Professor Grade-II",
+        "Email": "bhattacharjeep@nitrkl.ac.in"
+      },
+      {
+        "Name": "Prasenjit Dey",
+        "Designation": "Assistant Professor Grade-II",
+        "Email": "deyp@nitrkl.ac.in"
+      },
+      {
+        "Name": "Puneet Kumar Jain",
+        "Designation": "Assistant Professor Grade-II",
+        "Email": "jainp@nitrkl.ac.in"
+      },
+      {
+        "Name": "Ramesh Kumar Mohapatra",
+        "Designation": "Associate Professor",
+        "Email": "mohapatrark@nitrkl.ac.in"
+      },
+      {
+        "Name": "Ratnakar Dash",
+        "Designation": "Associate Professor",
+        "Email": "ratnakar@nitrkl.ac.in"
+      },
+      {
+        "Name": "Sambit Bakshi",
+        "Designation": "Associate Professor",
+        "Email": "bakshisambit@nitrkl.ac.in"
+      },
+      {
+        "Name": "Shyamapada Mukherjee",
+        "Designation": "Associate Professor",
+        "Email": "mukherjees@nitrkl.ac.in"
+      },
+      {
+        "Name": "Sibarama Panigrahi",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "panigrahis@nitrkl.ac.in"
+      },
+      {
+        "Name": "Sujata Mohanty",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "sujatam@nitrkl.ac.in"
+      },
+      {
+        "Name": "Tapas Kumar Mishra",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "mishrat@nitrkl.ac.in"
+      }
+    ],
+
+    "Group 3: Network and Secured Computing": [
+      {
+        "Name": "Ashok Kumar Turuk",
+        "Designation": "Professor",
+        "Email": "akturuk@nitrkl.ac.in"
+      },
+      {
+        "Name": "Dev Narayan Yadav",
+        "Designation": "Assistant Professor Grade-II",
+        "Email": "yadavd@nitrkl.ac.in"
+      },
+      {
+        "Name": "Judhistir Mahapatro",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "mahapatroj@nitrkl.ac.in"
+      },
+      {
+        "Name": "S. Asha",
+        "Designation": "Assistant Professor Adhoc",
+        "Email": "ashas@nitrkl.ac.in"
+      },
+      {
+        "Name": "Suchismita Chinara",
+        "Designation": "Associate Professor",
+        "Email": "suchismita@nitrkl.ac.in"
+      }
+    ],
+
+    "Group 4: Software Engineering": [
+      {
+        "Name": "Durga Prasad Mohapatra",
+        "Designation": "Professor",
+        "Email": "durga@nitrkl.ac.in"
+      },
+      {
+        "Name": "Judhistir Mahapatro",
+        "Designation": "Assistant Professor Grade-I",
+        "Email": "mahapatroj@nitrkl.ac.in"
+      }
     ]
   },
+
+
+
   "research_output": {
-    "total_publications": 450,
-    "conferences": 280,
+    "total_publications": 1968,
+    "conferences": 6,
     "journals": 170,
-    "patents": 12,
-    "funded_projects": 25,
+    "patents": 4,
+    "funded_projects": 59,
+    "consultancy projects": 16,
+    "workshops": 35,
+    "seminars": 20,
     "total_funding": "₹8.5 Crores"
   },
+
+  "Completed_Conferences": [
+    {
+      "Title": "Fourth International Conference on Computing, Communication and Learning (COCOLE)",
+      "Organizers": [
+        "Anup Nandy",
+        "Ramesh Kumar Mohapatra",
+        "Ratnakar Dash",
+        "Sibarama Panigrahi"
+      ],
+      "Dates": "22 Sep 2025 to 24 Sep 2025",
+      "Links": [
+        "Website",
+        "Registration Form",
+        "Brochure"
+      ]
+    },
+    {
+      "Title": "12th International Conference on Intelligent Systems and Embedded Design (ISED-2024)",
+      "Organizers": [
+        "Shyamapada Mukherjee"
+      ],
+      "Dates": "20 Dec 2024 to 22 Dec 2024",
+      "Links": [
+        "Website",
+        "Brochure"
+      ]
+    },
+    {
+      "Title": "12th International Conference on Intelligent Systems and Embedded Design (ISED 2024)",
+      "Organizers": [
+        "Sumanta Pyne"
+      ],
+      "Dates": "20 Dec 2024 to 22 Dec 2024",
+      "Links": [
+        "Brochure"
+      ]
+    },
+    {
+      "Title": "International Conference on Advances in Distributed Computing and Machine Learning 2023",
+      "Organizers": [
+        "Suchismita Chinara"
+      ],
+      "Dates": "15 Jan 2023 to 16 Jan 2023",
+      "Links": [
+        "Website",
+        "Brochure"
+      ]
+    },
+    {
+      "Title": "Research Scholars Week",
+      "Organizers": [
+        "Banshidhar Majhi"
+      ],
+      "Dates": "11 May 2015 to 13 May 2015",
+      "Links": [
+        "Brochure"
+      ]
+    },
+    {
+      "Title": "National Conference on Soft Computing Techniques for Engineering Applications",
+      "Organizers": [
+        "Banshidhar Majhi"
+      ],
+      "Dates": "24 Mar 2006 to 26 Mar 2006",
+      "Links": [
+        "Brochure"
+      ]
+    }
+  ],
+
+  
+  "Running Sponsored Projects": [
+    {
+      "Title": "Security Analysis of Software Systems",
+      "Sponsoring Agency": "Other",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Prof. Durga Prasad Mohapatra",
+      "Co-PI": "Prof. Ramesh Kumar Mohapatra",
+      "Duration": "Nov 2024 - Nov 2027"
+    },
+    {
+      "Title": "Information Security Education and Awareness (ISEA) Project Phase-III",
+      "Sponsoring Agency": "Meity",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Dr. Shyamapada Mukherjee",
+      "Co-PI": "Prof.(Ms.) Sujata Mohanty",
+      "Duration": "Jun 2024 - Jun 2029"
+    },
+    {
+      "Title": "Almost Intersecting Families",
+      "Sponsoring Agency": "Science & Engineering Research Board (SERB)",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Dr. Tapas Kumar Mishra",
+      "Duration": "May 2024 - May 2027"
+    },
+    {
+      "Title": "Distributed Quantum Computing",
+      "Sponsoring Agency": "MHRD",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Dr. Shyamapada Mukherjee",
+      "Co-PI": "Prof. Sumanta Pyne",
+      "Duration": "Apr 2024 - Mar 2026"
+    },
+    {
+      "Title": "Development of Artificial Intelligence-based Assistive Tool for Assessment of Orthotic Device",
+      "Sponsoring Agency": "DRDO",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Prof. Anup Nandy",
+      "Co-PI": [
+        "Dr. Bidyut Kumar Patra",
+        "Dr. K. Mohanavelu",
+        "Smt. R. Anitha"
+      ],
+      "Duration": "Feb 2024 - Feb 2026"
+    },
+    {
+      "Title": "Studies on Deep Learning Models for Crude Oil Price Forecasting",
+      "Sponsoring Agency": "Science & Engineering Research Board (SERB)",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Dr. Sibarama Panigrahi",
+      "Duration": "Sep 2023 - Dec 2025"
+    },
+    {
+      "Title": "Establishment of IIT Patna Vishlesan I-Hub Foundation extension center at NIT Rourkela",
+      "Sponsoring Agency": "IIT Patna Vishlesan - Hub Foundation",
+      "Department": "CS: Computer Science and Engineering",
+      "PI": "Prof. Sambit Bakshi",
+      "Co-PI": "Prof. Manmath Narayan Sahoo",
+      "Duration": "Jan 2023 - Nov 2025"
+    }
+  ],
+
+
+   "Laboratory_Details": [
+    {
+      "Professor": "Tapas Kumar Mishra",
+      "Designation": "Assistant Professor Grade-I",
+      "Email": "mishrat@nitrkl.ac.in",
+      "Laboratory": "Advance Database Engineering Laboratory",
+      "Equipment": [
+        "IBM P 520 Unix Server on AIX 5.3",
+        "IBM DB2 8.2",
+        "WAS 5.1 Web Sphere Application"
+      ]
+    },
+    {
+      "Professor": "Pabitra Mohan Khilar",
+      "Designation": "Professor",
+      "Email": "pmkhilar@nitrkl.ac.in",
+      "Laboratory": "Hardware Laboratory",
+      "Equipment": [
+        "Digital Storage Oscilloscope",
+        "Analog / Digital IC Tester",
+        "Logic Analyzer"
+      ]
+    },
+    {
+      "Professor": "Pankaj Kumar Sa",
+      "Designation": "Professor",
+      "Email": "PankajKSa@nitrkl.ac.in",
+      "Laboratory": "Image Processing and Clustered Computing Laboratory",
+      "Equipment": [
+        "IBM e-225 Server",
+        "Scanner, Digital Camera, Image Processing Hardware System",
+        "HPC Cluster consists of 1 Master Node and 3 Compute Nodes which is based on Intel Platform with a Gigabit Ethernet Back-plane, Benchmark with High Performance Linpack (HPL): 11GFlops"
+      ]
+    },
+    {
+      "Professor": "Judhistir Mahapatro",
+      "Designation": "Assistant Professor Grade-I",
+      "Email": "mahapatroj@nitrkl.ac.in",
+      "Laboratory": "Software Engineering Laboratory",
+      "Equipment": [
+        "IBM Intel Xeon Server xSeries 226",
+        "SPSS Clementine 9.0",
+        "IBM Rational Suite Enterprise"
+      ]
+    }
+  ],
+
   "student_activities": {
     "technical_clubs": [
       "NITR AI Club",
